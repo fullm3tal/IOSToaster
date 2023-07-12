@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'IOSToaster_Example' do
+  pod 'IOSToaster', :path => '../'
+
+  target 'IOSToaster_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
